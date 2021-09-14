@@ -5,7 +5,7 @@ import './Radio.css';
 class Radio extends Component {
     render() {
         return (
-            <div className="radio container-fluid bg-light" id="radio">
+            <div className="radio container-fluid bg-white" id="radio">
                 <div className="row welcome d-flex flex-column align-items-center justify-content-center text-center">
                     <div className="col-md-12">
                         <blockquote className="blockquote text-center">

@@ -39,7 +39,7 @@ class AfichesPublicitarios extends Component {
                                         this.state.listaAfiches.map((archivo) => {
                                             return (
                                                 <div key={archivo} className="item col-sm-6 col-md-4 mb-3">
-                                                    <img width="100%" height="90%" src={`${this.props.url}/afiche/show/${archivo}`} alt={archivo} className="flyer__img"/>
+                                                    <img width="100%" height="400px" src={`${this.props.url}/afiche/show/${archivo}`} alt={archivo} className="flyer__img"/>
                                                 </div>
                                             )
                                         })
